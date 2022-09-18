@@ -1,0 +1,19 @@
+{
+    "translator": {
+        "type": "TabularTranslator",
+        "mappings": [
+            {
+                "source": "customer id",
+                "sink": "customer id"
+            },
+            {
+                "source": "orders",
+                "sink": "orders"
+            },
+            {
+                "source": "date?",
+                "sink": "date?"
+            }
+        ]
+    }
+}
