@@ -11,8 +11,8 @@
                 "sink": "orders"
             },
             {
-                "source": "date?",
-                "sink": "date?"
+                "source": "date{",
+                "sink": "date{"
             }
         ]
     }
