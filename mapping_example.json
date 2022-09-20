@@ -13,6 +13,10 @@
             {
                 "source": "date,",
                 "sink": "date,"
+            },
+            {
+                "source": " test?col ",
+                "sink": " test?col "
             }
         ]
     }
