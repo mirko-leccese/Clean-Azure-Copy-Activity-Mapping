@@ -45,7 +45,7 @@ for i in data['translator']['mappings']:
         i['sink'] = clean(i['sink'], characterToCheck)
 
 # Creating a new name for the modified file:
-filename_mod = str(filename) + '.New'
+filename_mod = str(filename)[:-5] + '_Cleaned.json'
 
 # Loading the clean JSON code into the new file:
 with open(filename_mod, 'w') as f_mod:
