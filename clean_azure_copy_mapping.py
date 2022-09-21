@@ -39,7 +39,7 @@ except FileNotFoundError:
     print('File not found!')
     sys.exit()
 
-# Checking if 'source' field of any 'mappings' array element contains any undesired characters and 
+# Checking if 'source' field of any 'mappings' array element contains any undesired character and 
 # calling the clean() function to clean it:
 for i in data['translator']['mappings']:
     if any(char in i['source'] for char in characterToCheck):
