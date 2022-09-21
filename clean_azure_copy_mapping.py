@@ -23,6 +23,7 @@ def clean(str, characterList):
     # Looping over characterList and replace matching elements:
     for ch in characterList:
         x = x.replace(ch,"_")
+    print(f"Source field to clean: {str:30s} Sink field cleaned: {x:s}")
     return x
 
 # Asking for JSON filename
