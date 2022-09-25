@@ -24,6 +24,13 @@ This simple Python script reads a JSON file specifying the schema mapping and cl
 
 The script produces a new JSON called *filename_Cleaned.json* where any ```sink```field from the ```mappings```array has been cleaned. 
 
+The present version of the script targets the following characters:
+
+```python
+characterToCheck = [",", ";", "{", "}", "(", ")", "\n", "\t", "=", " "]
+```
+and replace them with a ```-```.
+
 # Installation
 No installation required. To run the script, type:
 
